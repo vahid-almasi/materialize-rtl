@@ -1,0 +1,109 @@
+// right to left body
+body{
+	direction: rtl;
+}
+
+// text input
+$gutter-width: 1.5rem !default;
+.input-field {
+	label {
+		right: $gutter-width / 2;
+	}
+}
+
+
+.collapsible-header {
+	i{
+		float: right;
+	}
+}
+
+
+form{
+	p{
+		text-align: right;
+	}
+}
+
+[type="checkbox"] {
+
+  // Text Label Style
+  + label {
+  	padding-right: 35px;
+  }
+
+  /* checkbox aspect */
+  + label:before {
+  	right: 0;
+  }
+
+}
+[type="checkbox"]:checked {
+
+  /* checkbox aspect */
+  + label:before {
+  	right: 10px;
+  }
+
+}
+
+[type="checkbox"].filled-in {
+	+ label:before{
+		right:10px;
+	}
+	+ label:after{
+		right:0;
+	}
+}
+
+[type="radio"] {
+
+  // Text Label Style
+  + label {
+  	padding-right: 35px;
+  }
+
+  /* radio aspect */
+  + label:before {
+  	right: 0;
+  }
+  /* radio aspect */
+  + label:after {
+  	right: 0;
+  }
+
+}
+
+
+.row {
+  // Clear floating children
+  .col {
+  	float: right;
+  }
+}
+
+
+.file-field {
+  .btn {
+    float: right;
+  }
+}
+
+// Badges
+span.badge {
+  left: 15px;
+  right:inherit;
+}
+
+
+// dropdown
+.dropdown-content {
+  li {
+    text-align: right;
+  }
+}
+
+// Made less specific to allow easier overriding
+.secondary-content {
+  float: left;
+}

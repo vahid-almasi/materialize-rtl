@@ -1,0 +1,55 @@
+body {
+  direction: rtl; }
+
+.input-field label {
+  right: 0.75rem; }
+
+.collapsible-header i {
+  float: right; }
+
+form p {
+  text-align: right; }
+
+[type="checkbox"] {
+  /* checkbox aspect */ }
+  [type="checkbox"] + label {
+    padding-right: 35px; }
+  [type="checkbox"] + label:before {
+    right: 0; }
+
+[type="checkbox"]:checked {
+  /* checkbox aspect */ }
+  [type="checkbox"]:checked + label:before {
+    right: 10px; }
+
+[type="checkbox"].filled-in + label:before {
+  right: 10px; }
+
+[type="checkbox"].filled-in + label:after {
+  right: 0; }
+
+[type="radio"] {
+  /* radio aspect */
+  /* radio aspect */ }
+  [type="radio"] + label {
+    padding-right: 35px; }
+  [type="radio"] + label:before {
+    right: 0; }
+  [type="radio"] + label:after {
+    right: 0; }
+
+.row .col {
+  float: right; }
+
+.file-field .btn {
+  float: right; }
+
+span.badge {
+  left: 15px;
+  right: inherit; }
+
+.dropdown-content li {
+  text-align: right; }
+
+.secondary-content {
+  float: left; }
