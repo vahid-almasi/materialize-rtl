@@ -2,7 +2,17 @@
 materialize-rtl make materialize framework compatible with right to left languages.
 
 # Installation
-after Installing materialize framework, include materialize-rtl.sass to the end of materialize.scss or link materialize-rtl.css after materialize.scss
+After installing materialize framework, import ```_materialize-rtl.scss``` to the end of ```materialize.scss```, then copy the _materialize_rtl.scss to ```materialize/components``` folder.
+
+```js
+@import "components/_materialize_rtl";
+```
+
+Or or manually link ```materialize_rtl.css``` after materialize link.
+
+```html
+<link rel="stylesheet" href="materialize.css">
+```
 
 # License
 MIT License
