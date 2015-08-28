@@ -27,23 +27,23 @@ form{
 
 [type="checkbox"] {
 
-  // Text Label Style
-  + label {
-  	padding-right: 35px;
-  }
+	// Text Label Style
+	+ label {
+		padding-right: 35px;
+	}
 
-  /* checkbox aspect */
-  + label:before {
-  	right: 0;
-  }
+	/* checkbox aspect */
+	+ label:before {
+		right: 0;
+	}
 
 }
 [type="checkbox"]:checked {
 
-  /* checkbox aspect */
-  + label:before {
-  	right: 10px;
-  }
+	/* checkbox aspect */
+	+ label:before {
+		right: 10px;
+	}
 
 }
 
@@ -58,52 +58,64 @@ form{
 
 [type="radio"] {
 
-  // Text Label Style
-  + label {
-  	padding-right: 35px;
-  }
+	// Text Label Style
+	+ label {
+		padding-right: 35px;
+	}
 
-  /* radio aspect */
-  + label:before {
-  	right: 0;
-  }
-  /* radio aspect */
-  + label:after {
-  	right: 0;
-  }
+	/* radio aspect */
+	+ label:before {
+		right: 0;
+	}
+	/* radio aspect */
+	+ label:after {
+		right: 0;
+	}
 
 }
 
 
 .row {
-  // Clear floating children
-  .col {
-  	float: right;
-  }
+	// Clear floating children
+	.col {
+		float: right;
+	}
 }
 
 
 .file-field {
-  .btn {
-    float: right;
-  }
+	.btn {
+		float: right;
+	}
 }
 
 // Badges
 span.badge {
-  left: 15px;
-  right:inherit;
+	left: 15px;
+	right:inherit;
 }
 
 
 // dropdown
 .dropdown-content {
-  li {
-    text-align: right;
-  }
+	li {
+		text-align: right;
+	}
 }
 
 // Made less specific to allow easier overriding
 .secondary-content {
-  float: left;
+	float: left;
 }
+
+
+
+/*font yekan */
+
+@font-face {
+	font-family: "B-YEKAN";
+	src: url("font/B-YEKAN.otf") format("otf"), url("font/B-YEKAN.ttf") format("ttf");
+	font-weight: 200; }
+	html{
+		font-family: B-YEKAN;
+	}
