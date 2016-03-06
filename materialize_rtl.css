@@ -4,6 +4,13 @@ body {
 .input-field label {
   right: 0.75rem; }
 
+.input-field .prefix ~ input,
+.input-field .prefix ~ textarea {
+  margin-right: 3rem; }
+
+.input-field .prefix ~ label {
+  margin-right: 3rem; }
+
 .collapsible-header i {
   float: right; }
 
@@ -41,6 +48,9 @@ form p {
 .row .col {
   float: right; }
 
+.file-field .file-path-wrapper {
+  padding-right: 10px; }
+
 .file-field .btn {
   float: right; }
 
@@ -53,3 +63,44 @@ span.badge {
 
 .secondary-content {
   float: left; }
+
+.breadcrumb:before {
+  content: '\E5CB'; }
+
+.collection .collection-item.avatar {
+  padding-left: 0;
+  padding-right: 72px; }
+  .collection .collection-item.avatar .circle {
+    right: 15px;
+    left: auto; }
+  .collection .collection-item.avatar .secondary-content {
+    left: 16px;
+    right: auto; }
+
+.collection.avatar {
+  padding-right: 72px;
+  padding-left: auto; }
+  .collection.avatar .secondary-content {
+    left: 16px; }
+
+.select-wrapper span.caret {
+  right: auto;
+  left: 0; }
+
+.chip img {
+  float: right;
+  margin: 0 -8px 0 12px; }
+
+.chip i.material-icons {
+  float: left;
+  padding-right: 8px;
+  padding-left: 0; }
+
+/*font yekan */
+@font-face {
+  font-family: "B-YEKAN";
+  src: url("font/B-YEKAN.otf") format("otf"), url("font/B-YEKAN.ttf") format("ttf");
+  font-weight: 200; }
+
+html {
+  font-family: B-YEKAN; }

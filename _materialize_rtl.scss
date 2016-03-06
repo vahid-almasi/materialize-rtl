@@ -3,12 +3,20 @@ body{
 	direction: rtl;
 }
 
-// text input
+// Styling for input field wrapper
 $gutter-width: 1.5rem !default;
 .input-field {
 	label {
 		right: $gutter-width / 2;
 	}
+
+	.prefix ~ input,
+	.prefix ~ textarea {
+		margin-right: 3rem;
+	}
+
+	.prefix ~ label { margin-right: 3rem; }
+
 }
 
 
@@ -82,8 +90,12 @@ form{
 	}
 }
 
+// File Input
 
 .file-field {
+	.file-path-wrapper {
+		padding-right: 10px;
+	}
 	.btn {
 		float: right;
 	}
@@ -107,6 +119,74 @@ span.badge {
 .secondary-content {
 	float: left;
 }
+
+// Breadcrumbs
+.breadcrumb {
+
+	&:before {
+		content: '\E5CB';
+	}
+
+}
+
+
+// Collections
+.collection {
+
+	.collection-item.avatar {
+		padding-left: 0;
+		padding-right: 72px;
+		.circle {
+			right: 15px;
+			left:auto;
+		}
+		.secondary-content {
+			left: 16px;
+			right: auto;
+
+		}
+
+	}
+	// Avatar Collection
+	&.avatar {
+		padding-right: 72px;
+		padding-left: auto;
+
+		.secondary-content {
+			left: 16px;
+		}
+
+	}
+
+
+}
+
+//select fild
+
+.select-wrapper {
+
+	span.caret {
+		right: auto;
+		left: 0;
+	}
+}
+
+// chip
+.chip {
+	img {
+		float: right;
+		margin: 0 -8px 0 12px;
+	}
+
+	i.material-icons {
+		float: left;
+		padding-right: 8px;
+		padding-left: 0;
+	}
+}
+
+
+
 
 
 
