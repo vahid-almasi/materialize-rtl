@@ -1,4 +1,4 @@
-body {
+body, .side-nav {
   direction: rtl; }
 
 .input-field label {
