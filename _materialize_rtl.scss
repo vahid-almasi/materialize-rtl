@@ -204,3 +204,7 @@ blockquote {
   padding-right: 1.5rem;
   border-right: 5px solid #ee6e73;
 }
+.input-field input[type=search] {
+  padding-right: 4rem;
+  width: calc(100% - 8rem);
+}
