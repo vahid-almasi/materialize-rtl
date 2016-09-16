@@ -127,3 +127,6 @@ blockquote {
     border-left: none;
     border-right: 1px solid #ea4a4f;
 }
+td, th {
+    text-align: right;
+}
