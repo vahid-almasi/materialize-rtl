@@ -208,3 +208,19 @@ blockquote {
   padding-right: 4rem;
   width: calc(100% - 8rem);
 }
+.table-of-contents a.active {
+    padding-right: 18px;
+    border-right: 2px solid #ea4a4f;
+    border-left: none;
+}
+.table-of-contents a {
+    padding-right: 20px;
+}
+.table-of-contents a:hover {
+    padding-right: 19px;
+    border-left: none;
+    border-right: 1px solid #ea4a4f;
+}
+td, th {
+    text-align: right;
+}
