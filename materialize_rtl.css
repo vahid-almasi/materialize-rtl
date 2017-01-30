@@ -137,17 +137,6 @@ span.badge {
 	padding-left: 0;
 }
 
-/*font yekan */
-@font-face {
-	font-family: "B-YEKAN";
-	src: url("font/B-YEKAN.otf") format("otf"), url("font/B-YEKAN.ttf") format("ttf");
-	font-weight: 200;
-}
-
-html {
-	font-family: B-YEKAN;
-}
-
 blockquote {
 	margin: 20px 0;
 	padding-right: 1.5rem;

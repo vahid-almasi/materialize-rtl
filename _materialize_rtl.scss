@@ -107,7 +107,7 @@ span.badge {
 	right: inherit;
 }
 
-// dropdown
+// Drop down
 .dropdown-content {
 	li {
 		text-align: right;
@@ -180,18 +180,6 @@ span.badge {
 		padding-right: 8px;
 		padding-left: 0;
 	}
-}
-
-/*font yekan */
-
-@font-face {
-	font-family: "B-YEKAN";
-	src: url("font/B-YEKAN.otf") format("otf"), url("font/B-YEKAN.ttf") format("ttf");
-	font-weight: 200;
-}
-
-html {
-	font-family: B-YEKAN;
 }
 
 blockquote {
