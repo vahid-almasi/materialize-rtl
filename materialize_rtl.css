@@ -1,132 +1,180 @@
 body {
-  direction: rtl; }
+	direction: rtl;
+}
 
 .input-field label {
-  right: 0.75rem; }
+	right: 0.75rem;
+}
 
 .input-field .prefix ~ input,
 .input-field .prefix ~ textarea {
-  margin-right: 3rem; }
+	margin-right: 3rem;
+}
 
 .input-field .prefix ~ label {
-  margin-right: 3rem; }
+	margin-right: 3rem;
+}
 
 .collapsible-header i {
-  float: right; }
+	float: right;
+}
 
 form p {
-  text-align: right; }
+	text-align: right;
+}
 
 [type="checkbox"] {
-  /* checkbox aspect */ }
-  [type="checkbox"] + label {
-    padding-right: 35px; }
-  [type="checkbox"] + label:before {
-    right: 0; }
+	/* checkbox aspect */
+}
+
+[type="checkbox"] + label {
+	padding-right: 35px;
+}
+
+[type="checkbox"] + label:before {
+	right: 0;
+}
 
 [type="checkbox"]:checked {
-  /* checkbox aspect */ }
-  [type="checkbox"]:checked + label:before {
-    right: 10px; }
+	/* checkbox aspect */
+}
+
+[type="checkbox"]:checked + label:before {
+	right: 10px;
+}
 
 [type="checkbox"].filled-in + label:before {
-  right: 10px; }
+	right: 10px;
+}
 
 [type="checkbox"].filled-in + label:after {
-  right: 0; }
+	right: 0;
+}
 
 [type="radio"] {
-  /* radio aspect */
-  /* radio aspect */ }
-  [type="radio"] + label {
-    padding-right: 35px; }
-  [type="radio"] + label:before {
-    right: 0; }
-  [type="radio"] + label:after {
-    right: 0; }
+	/* radio aspect */
+	/* radio aspect */
+}
+
+[type="radio"] + label {
+	padding-right: 35px;
+}
+
+[type="radio"] + label:before {
+	right: 0;
+}
+
+[type="radio"] + label:after {
+	right: 0;
+}
 
 .row .col {
-  float: right; }
+	float: right;
+}
 
 .file-field .file-path-wrapper {
-  padding-right: 10px; }
+	padding-right: 10px;
+}
 
 .file-field .btn {
-  float: right; }
+	float: right;
+}
 
 span.badge {
-  left: 15px;
-  right: inherit; }
+	left: 15px;
+	right: inherit;
+}
 
 .dropdown-content li {
-  text-align: right; }
+	text-align: right;
+}
 
 .secondary-content {
-  float: left; }
+	float: left;
+}
 
 .breadcrumb:before {
-  content: '\E5CB'; }
+	content: '\E5CB';
+}
 
 .collection .collection-item.avatar {
-  padding-left: 0;
-  padding-right: 72px; }
-  .collection .collection-item.avatar .circle {
-    right: 15px;
-    left: auto; }
-  .collection .collection-item.avatar .secondary-content {
-    left: 16px;
-    right: auto; }
+	padding-left: 0;
+	padding-right: 72px;
+}
+
+.collection .collection-item.avatar .circle {
+	right: 15px;
+	left: auto;
+}
+
+.collection .collection-item.avatar .secondary-content {
+	left: 16px;
+	right: auto;
+}
 
 .collection.avatar {
-  padding-right: 72px;
-  padding-left: auto; }
-  .collection.avatar .secondary-content {
-    left: 16px; }
+	padding-right: 72px;
+	padding-left: auto;
+}
+
+.collection.avatar .secondary-content {
+	left: 16px;
+}
 
 .select-wrapper span.caret {
-  right: auto;
-  left: 0; }
+	right: auto;
+	left: 0;
+}
 
 .chip img {
-  float: right;
-  margin: 0 -8px 0 12px; }
+	float: right;
+	margin: 0 -8px 0 12px;
+}
 
 .chip i.material-icons {
-  float: left;
-  padding-right: 8px;
-  padding-left: 0; }
+	float: left;
+	padding-right: 8px;
+	padding-left: 0;
+}
 
 /*font yekan */
 @font-face {
-  font-family: "B-YEKAN";
-  src: url("font/B-YEKAN.otf") format("otf"), url("font/B-YEKAN.ttf") format("ttf");
-  font-weight: 200; }
+	font-family: "B-YEKAN";
+	src: url("font/B-YEKAN.otf") format("otf"), url("font/B-YEKAN.ttf") format("ttf");
+	font-weight: 200;
+}
 
 html {
-  font-family: B-YEKAN; }
-  
+	font-family: B-YEKAN;
+}
+
 blockquote {
-  margin: 20px 0;
-  padding-right: 1.5rem;
-  border-right: 5px solid #ee6e73;
+	margin: 20px 0;
+	padding-right: 1.5rem;
+	border-right: 5px solid #ee6e73;
 }
+
 .input-field input[type=search] {
-  padding-right: 4rem;
-  width: calc(100% - 8rem);
+	padding-right: 4rem;
+	width: calc(100% - 8rem);
 }
+
 .table-of-contents a.active {
-    padding-right: 18px;
-    border-right: 2px solid #ea4a4f;
-    border-left: none;
+	padding-right: 18px;
+	border-right: 2px solid #ea4a4f;
+	border-left: none;
 }
+
 .table-of-contents a {
-    padding-right: 20px;
+	padding-right: 20px;
 }
+
 .table-of-contents a:hover {
-    padding-right: 19px;
-    border-left: none;
-    border-right: 1px solid #ea4a4f;
+	padding-right: 19px;
+	border-left: none;
+	border-right: 1px solid #ea4a4f;
 }
+
 td, th {
-    text-align: right;
+	text-align: right;
 }

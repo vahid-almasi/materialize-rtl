@@ -15,20 +15,20 @@ $gutter-width: 1.5rem !default;
 		margin-right: 3rem;
 	}
 
-	.prefix ~ label { margin-right: 3rem; }
+	.prefix ~ label {
+		margin-right: 3rem;
+	}
 
 }
 
-
 .collapsible-header {
-	i{
+	i {
 		float: right;
 	}
 }
 
-
-form{
-	p{
+form {
+	p {
 		text-align: right;
 	}
 }
@@ -46,6 +46,7 @@ form{
 	}
 
 }
+
 [type="checkbox"]:checked {
 
 	/* checkbox aspect */
@@ -56,11 +57,11 @@ form{
 }
 
 [type="checkbox"].filled-in {
-	+ label:before{
-		right:10px;
+	+ label:before {
+		right: 10px;
 	}
-	+ label:after{
-		right:0;
+	+ label:after {
+		right: 0;
 	}
 }
 
@@ -81,7 +82,6 @@ form{
 	}
 
 }
-
 
 .row {
 	// Clear floating children
@@ -104,9 +104,8 @@ form{
 // Badges
 span.badge {
 	left: 15px;
-	right:inherit;
+	right: inherit;
 }
-
 
 // dropdown
 .dropdown-content {
@@ -129,7 +128,6 @@ span.badge {
 
 }
 
-
 // Collections
 .collection {
 
@@ -138,7 +136,7 @@ span.badge {
 		padding-right: 72px;
 		.circle {
 			right: 15px;
-			left:auto;
+			left: auto;
 		}
 		.secondary-content {
 			left: 16px;
@@ -157,7 +155,6 @@ span.badge {
 		}
 
 	}
-
 
 }
 
@@ -185,42 +182,45 @@ span.badge {
 	}
 }
 
-
-
-
-
-
 /*font yekan */
 
 @font-face {
 	font-family: "B-YEKAN";
 	src: url("font/B-YEKAN.otf") format("otf"), url("font/B-YEKAN.ttf") format("ttf");
-	font-weight: 200; }
-	html{
-		font-family: B-YEKAN;
-	}
+	font-weight: 200;
+}
+
+html {
+	font-family: B-YEKAN;
+}
+
 blockquote {
-  margin: 20px 0;
-  padding-right: 1.5rem;
-  border-right: 5px solid #ee6e73;
+	margin: 20px 0;
+	padding-right: 1.5rem;
+	border-right: 5px solid #ee6e73;
 }
+
 .input-field input[type=search] {
-  padding-right: 4rem;
-  width: calc(100% - 8rem);
+	padding-right: 4rem;
+	width: calc(100% - 8rem);
 }
+
 .table-of-contents a.active {
-    padding-right: 18px;
-    border-right: 2px solid #ea4a4f;
-    border-left: none;
+	padding-right: 18px;
+	border-right: 2px solid #ea4a4f;
+	border-left: none;
 }
+
 .table-of-contents a {
-    padding-right: 20px;
+	padding-right: 20px;
 }
+
 .table-of-contents a:hover {
-    padding-right: 19px;
-    border-left: none;
-    border-right: 1px solid #ea4a4f;
+	padding-right: 19px;
+	border-left: none;
+	border-right: 1px solid #ea4a4f;
 }
+
 td, th {
-    text-align: right;
+	text-align: right;
 }
