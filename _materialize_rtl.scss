@@ -27,8 +27,8 @@ $gutter-width: 1.5rem !default;
 }
 
 
-form{
-	p{
+form {
+	p {
 		text-align: right;
 	}
 }
@@ -46,6 +46,7 @@ form{
 	}
 
 }
+
 [type="checkbox"]:checked {
 
 	/* checkbox aspect */
@@ -162,9 +163,7 @@ span.badge {
 }
 
 //select fild
-
 .select-wrapper {
-
 	span.caret {
 		right: auto;
 		left: 0;
@@ -173,6 +172,7 @@ span.badge {
 
 // chip
 .chip {
+
 	img {
 		float: right;
 		margin: 0 -8px 0 12px;
@@ -183,44 +183,36 @@ span.badge {
 		padding-right: 8px;
 		padding-left: 0;
 	}
+
 }
 
-
-
-
-
-
-/*font yekan */
-
-@font-face {
-	font-family: "B-YEKAN";
-	src: url("font/B-YEKAN.otf") format("otf"), url("font/B-YEKAN.ttf") format("ttf");
-	font-weight: 200; }
-	html{
-		font-family: B-YEKAN;
-	}
 blockquote {
   margin: 20px 0;
   padding-right: 1.5rem;
   border-right: 5px solid #ee6e73;
 }
+
 .input-field input[type=search] {
   padding-right: 4rem;
   width: calc(100% - 8rem);
 }
+
 .table-of-contents a.active {
     padding-right: 18px;
     border-right: 2px solid #ea4a4f;
     border-left: none;
 }
+
 .table-of-contents a {
     padding-right: 20px;
 }
+
 .table-of-contents a:hover {
     padding-right: 19px;
     border-left: none;
     border-right: 1px solid #ea4a4f;
 }
+
 td, th {
     text-align: right;
 }
