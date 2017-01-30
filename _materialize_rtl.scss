@@ -5,7 +5,9 @@ body {
 
 // Styling for input field wrapper
 $gutter-width: 1.5rem !default;
+
 .input-field {
+
 	label {
 		right: $gutter-width / 2;
 	}
@@ -21,16 +23,20 @@ $gutter-width: 1.5rem !default;
 
 
 .collapsible-header {
-	i{
+
+	i {
 		float: right;
 	}
+
 }
 
 
-form{
-	p{
+form {
+
+	p {
 		text-align: right;
 	}
+
 }
 
 [type="checkbox"] {
@@ -56,12 +62,15 @@ form{
 }
 
 [type="checkbox"].filled-in {
+
 	+ label:before{
 		right:10px;
 	}
+
 	+ label:after{
 		right:0;
 	}
+
 }
 
 [type="radio"] {
@@ -75,6 +84,7 @@ form{
 	+ label:before {
 		right: 0;
 	}
+
 	/* radio aspect */
 	+ label:after {
 		right: 0;
@@ -84,21 +94,26 @@ form{
 
 
 .row {
+
 	// Clear floating children
 	.col {
 		float: right;
 	}
+
 }
 
 // File Input
 
 .file-field {
+
 	.file-path-wrapper {
 		padding-right: 10px;
 	}
+
 	.btn {
 		float: right;
 	}
+
 }
 
 // Badges
@@ -110,9 +125,11 @@ span.badge {
 
 // dropdown
 .dropdown-content {
+
 	li {
 		text-align: right;
 	}
+
 }
 
 // Made less specific to allow easier overriding
@@ -136,19 +153,21 @@ span.badge {
 	.collection-item.avatar {
 		padding-left: 0;
 		padding-right: 72px;
+	
 		.circle {
 			right: 15px;
 			left:auto;
 		}
+	
 		.secondary-content {
 			left: 16px;
 			right: auto;
-
 		}
 
 	}
 	// Avatar Collection
 	&.avatar {
+
 		padding-right: 72px;
 		padding-left: auto;
 
@@ -157,7 +176,6 @@ span.badge {
 		}
 
 	}
-
 
 }
 
@@ -169,10 +187,12 @@ span.badge {
 		right: auto;
 		left: 0;
 	}
+
 }
 
 // chip
 .chip {
+
 	img {
 		float: right;
 		margin: 0 -8px 0 12px;
@@ -183,36 +203,36 @@ span.badge {
 		padding-right: 8px;
 		padding-left: 0;
 	}
+
 }
-
-
-
-
-
-
 
 blockquote {
   margin: 20px 0;
   padding-right: 1.5rem;
   border-right: 5px solid #ee6e73;
 }
+
 .input-field input[type=search] {
   padding-right: 4rem;
   width: calc(100% - 8rem);
 }
+
 .table-of-contents a.active {
     padding-right: 18px;
     border-right: 2px solid #ea4a4f;
     border-left: none;
 }
+
 .table-of-contents a {
     padding-right: 20px;
 }
+
 .table-of-contents a:hover {
     padding-right: 19px;
     border-left: none;
     border-right: 1px solid #ea4a4f;
 }
+
 td, th {
     text-align: right;
 }
