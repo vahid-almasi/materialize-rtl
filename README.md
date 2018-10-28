@@ -1,5 +1,5 @@
 # materialize-rtl
-materialize-rtl make materialize framework compatible with right to left languages.
+materialize-rtl make materialize framework compatible with right to left languages like persian and arabic language.
 
 # Installation
 After installing materialize framework, import ```_materialize-rtl.scss``` to the end of ```materialize.scss```, then copy the _materialize_rtl.scss to ```materialize/components``` folder.
